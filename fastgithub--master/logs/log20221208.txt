@@ -1,0 +1,1486 @@
+2022-12-08T10:11:13.7217027+08:00 [INF]
+FastGithub.HttpServer
+已监听https://localhost:443，https反向代理服务启动完成
+
+2022-12-08T10:11:13.8170033+08:00 [INF]
+FastGithub.HttpServer
+已监听http://localhost:80，http反向代理服务启动完成
+
+2022-12-08T10:11:13.8190350+08:00 [INF]
+FastGithub.HttpServer
+已监听ssh://localhost:22，github的ssh反向代理服务启动完成
+
+2022-12-08T10:11:13.8206143+08:00 [INF]
+FastGithub.HttpServer
+已监听git://localhost:9418，github的git反向代理服务启动完成
+
+2022-12-08T10:11:13.8825197+08:00 [INF]
+FastGithub.AppHostedService
+FastGithub启动完成，当前版本为v2.1.4，访问 https://github.com/dotnetcore/fastgithub 关注新版本
+
+2022-12-08T10:11:27.8967848+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.com->127.0.0.1
+
+2022-12-08T10:11:27.8994948+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.com->127.0.0.1
+
+2022-12-08T10:11:27.9863563+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dsm01pap001.storage.live.com:443->[13.107.42.12]
+
+2022-12-08T10:11:36.5376085+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.githubassets.com@119.29.29.29:53->Unexpected end of stream
+
+2022-12-08T10:11:36.7553311+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+raw.githubusercontent.com->127.0.0.1
+
+2022-12-08T10:11:36.7596505+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.githubassets.com:443->[185.199.108.154, 185.199.110.154, 185.199.111.154]
+
+2022-12-08T10:11:38.9387902+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+avatars.githubusercontent.com->127.0.0.1
+
+2022-12-08T10:11:38.9404712+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.githubassets.com->127.0.0.1
+
+2022-12-08T10:11:38.9419996+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+avatars.githubusercontent.com->127.0.0.1
+
+2022-12-08T10:11:38.9435514+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.githubassets.com->127.0.0.1
+
+2022-12-08T10:11:38.9800495+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github-cloud.s3.amazonaws.com->127.0.0.1
+
+2022-12-08T10:11:38.9815788+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+user-images.githubusercontent.com->127.0.0.1
+
+2022-12-08T10:11:38.9831624+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github-cloud.s3.amazonaws.com->127.0.0.1
+
+2022-12-08T10:11:38.9845961+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+user-images.githubusercontent.com->127.0.0.1
+
+2022-12-08T10:11:39.0742274+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/Snailclimb/JavaGuide responded 200 in 10109.3522 ms
+
+2022-12-08T10:11:39.1006735+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+camo.githubusercontent.com->127.0.0.1
+
+2022-12-08T10:11:39.1027909+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+camo.githubusercontent.com->127.0.0.1
+
+2022-12-08T10:11:39.8494009+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/element-registry-a67d4661e8bb.js responded 200 in 561.5479 ms
+
+2022-12-08T10:11:39.8494222+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.png responded 200 in 560.8316 ms
+
+2022-12-08T10:11:39.9814996+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.png responded 200 in 692.9512 ms
+
+2022-12-08T10:11:40.0278883+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/environment-ebb879fbdb40.js responded 200 in 739.3653 ms
+
+2022-12-08T10:11:40.1618887+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/github-ed372cf0a5db.css responded 200 in 874.0875 ms
+
+2022-12-08T10:11:40.3151738+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/app_assets_modules_github_aria-live_ts-app_assets_modules_github_hydro-analytics_ts-app_asset-7c220e-f3c6c718b3ec.js responded 200 in 448.6926 ms
+
+2022-12-08T10:11:40.3281797+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/app_assets_modules_github_command-palette_items_help-item_ts-app_assets_modules_github_comman-48ad9d-40964356e9cb.js responded 200 in 460.2019 ms
+
+2022-12-08T10:11:40.3282060+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/github-elements-defa536e0a36.js responded 200 in 1040.3702 ms
+
+2022-12-08T10:11:40.4174103+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/notifications-global-35a509648d46.js responded 200 in 550.7215 ms
+
+2022-12-08T10:11:40.4258037+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/app_assets_modules_github_ref-selector_ts-2ef6ded89582.js responded 200 in 559.0371 ms
+
+2022-12-08T10:11:40.4716068+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_github_remote-form_dist_index_js-node_modules_delegated-events_dist_inde-b7ec0e1-de64e4b898cd.js responded 304 in 587.2135 ms
+
+2022-12-08T10:11:40.4802266+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/behaviors-68f99cb643cf.js responded 200 in 613.665 ms
+
+2022-12-08T10:11:40.5704499+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/optimizely-0db0f6a6e783.js responded 200 in 703.6772 ms
+
+2022-12-08T10:11:40.6069732+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/app_assets_modules_github_behaviors_commenting_edit_ts-app_assets_modules_github_behaviors_ht-83c235-cb56bba555dc.js responded 200 in 740.4946 ms
+
+2022-12-08T10:11:40.6261691+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/codespaces-fc14d9968046.js responded 200 in 759.319 ms
+
+2022-12-08T10:11:40.6550551+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/repositories-3332672f4f00.js responded 200 in 787.6267 ms
+
+2022-12-08T10:11:40.6627647+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/code-menu-26f72c36ac7a.js responded 200 in 794.8246 ms
+
+2022-12-08T10:11:40.6746029+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/global-4bc9b3a08d31.css responded 200 in 1386.8277 ms
+
+2022-12-08T10:11:40.6977183+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/wp-runtime-543633f96c9a.js responded 200 in 1409.7858 ms
+
+2022-12-08T10:11:40.8187844+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/topic-suggestions-1f8130174d43.js responded 200 in 950.857 ms
+
+2022-12-08T10:11:40.8943308+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/app_assets_modules_react-core_register-react-app_ts-9328c01359aa.js responded 200 in 1026.9205 ms
+
+2022-12-08T10:11:40.9523068+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/react-lib-a3151b3a4edd.js responded 200 in 1084.9587 ms
+
+2022-12-08T10:11:41.0136380+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_primer_react_lib-esm_BaseStyles_js-node_modules_primer_react_lib-esm_Box-6e6e3d-078007b31175.js responded 200 in 1146.2865 ms
+
+2022-12-08T10:11:41.4976643+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+alive.github.com->127.0.0.1
+
+2022-12-08T10:11:41.4998361+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+alive.github.com->127.0.0.1
+
+2022-12-08T10:11:41.5114898+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-app_components_files_readme-toc-element_ts-6756bbd93bce.js responded 200 in 218.0898 ms
+
+2022-12-08T10:11:41.5215001+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-app_components_command_palette_command-palette-page-stack-element_ts-b6bae9350207.js responded 200 in 229.1339 ms
+
+2022-12-08T10:11:42.5719628+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-app_components_command_palette_command-palette-page-element_ts-91f13d32ce35.js responded 200 in 1279.8415 ms
+
+2022-12-08T10:11:44.9160457+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+secure.gravatar.com@8.8.8.8:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2022-12-08T10:11:47.5104491+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+secure.gravatar.com@119.29.29.29:53->Invalid response received with code ServerFailure
+
+2022-12-08T10:11:48.5117262+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://raw.githubusercontent.com/DNSCrypt/dnscrypt-resolvers/master/v3/public-resolvers.md responded 200 in 10610.7606 ms
+
+2022-12-08T10:11:54.4409883+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://alive.github.com/_sockets/u/75795463/ws responded 101 in 11668.8838 ms
+
+2022-12-08T10:11:57.3468180+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://raw.githubusercontent.com/DNSCrypt/dnscrypt-resolvers/master/v3/public-resolvers.md.minisig responded 200 in 8830.5846 ms
+
+2022-12-08T10:11:57.5640496+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://raw.githubusercontent.com/DNSCrypt/dnscrypt-resolvers/master/v3/relays.md responded 200 in 211.3833 ms
+
+2022-12-08T10:11:57.7742367+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://raw.githubusercontent.com/DNSCrypt/dnscrypt-resolvers/master/v3/relays.md.minisig responded 200 in 207.5292 ms
+
+2022-12-08T10:12:01.0149940+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+login.live.com@119.29.29.29:53->Unexpected end of stream
+
+2022-12-08T10:12:01.2041898+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.141.37, 20.190.141.36, 20.190.141.38]
+
+2022-12-08T10:12:03.5078352+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://alive.github.com/_sockets/u/75795463/ws responded 101 in 11320.5532 ms
+
+2022-12-08T10:12:13.3427292+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+alive.github.com@119.29.29.29:53->Unexpected end of stream
+
+2022-12-08T10:12:13.6689158+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.114.26, 140.82.112.26]
+
+2022-12-08T10:12:17.7319513+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://camo.githubusercontent.com/0578bceb35ebecbe503f4e13a57cba28c39039508d74f0803eab2e91faa1ca17/68747470733a2f2f696d672e736869656c64732e696f2f62616467652fe99885e8afbb2d726561642d627269676874677265656e2e737667 responded 200 in 38320.577 ms
+
+2022-12-08T10:12:18.0746640+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://camo.githubusercontent.com/94defb8415b98f5bccbb14164623134dbc25b1d39b52b4983178cdbfa8f74a97/68747470733a2f2f696d672d626c6f672e6373646e696d672e636e2f696d675f636f6e766572742f31633030343133633635643139393539393362663262306461663762346630332e706e67237069635f63656e746572 responded 200 in 38663.2178 ms
+
+2022-12-08T10:12:18.1670202+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/Snailclimb/JavaGuide/overview_actions/main responded 502 in 36714.7098 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2022-12-08T10:12:18.1670250+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/Snailclimb/JavaGuide/environment_status responded 502 in 36714.0832 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2022-12-08T10:12:18.1670254+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/_graphql/GetSuggestedNavigationDestinations responded 502 in 34496.4852 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2022-12-08T10:12:18.1670359+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/Snailclimb/JavaGuide/hovercards/citation/sidebar_partial responded 502 in 36714.1319 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2022-12-08T10:12:18.1670213+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://camo.githubusercontent.com/a3310523d252e2be4a115516bdfcdd972f0286f555dba80caee9f5edfc98cef3/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f536e61696c636c696d622f4a6176614775696465 responded 502 in 38754.8303 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2022-12-08T10:12:18.1670211+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/SilentCamera responded 502 in 32330.1139 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2022-12-08T10:12:18.1670377+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/users/Robingao666/feature_preview/indicator_check responded 502 in 36955.7349 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2022-12-08T10:12:18.1670495+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/users/Snailclimb/hovercard responded 502 in 955.276 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2022-12-08T10:12:18.1670637+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/Snailclimb/JavaGuide/commit/7673b7d2a54eb39217aa3e2a1bdc332b7693479b/rollup responded 502 in 36714.1823 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2022-12-08T10:12:18.1670676+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/Snailclimb/JavaGuide/spoofed_commit_check/7673b7d2a54eb39217aa3e2a1bdc332b7693479b responded 502 in 36715.3411 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2022-12-08T10:12:18.1670243+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/Snailclimb/JavaGuide/security/overall-count responded 502 in 36718.3753 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2022-12-08T10:12:18.1670856+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://camo.githubusercontent.com/391119cc1f3f5d237826f8df7ec606bbab7adffcd28898dd188c260f863e3e36/68747470733a2f2f6170692e737461722d686973746f72792e636f6d2f7376673f7265706f733d536e61696c636c696d622f4a617661477569646526747970653d44617465 responded 502 in 38297.5911 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2022-12-08T10:12:18.1671240+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/Snailclimb/JavaGuide/pull/1882/hovercard responded 502 in 6318.4754 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2022-12-08T10:12:18.1671163+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/Snailclimb/JavaGuide/show_partial responded 502 in 36715.3102 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2022-12-08T10:12:18.1671540+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://camo.githubusercontent.com/c8ab6079b1607773d6d169abf50e30d7a5321e36170caec922be15b37d2439c5/68747470733a2f2f67756964652d626c6f672d696d616765732e6f73732d636e2d7368656e7a68656e2e616c6979756e63732e636f6d2f78696e677169752f78696e677169752e706e67 responded 502 in 38754.927 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2022-12-08T10:12:18.1694344+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://camo.githubusercontent.com/86cff7667e8c9720a91ec275b97c612e3091609f8da0d3084771ebde1ce4784d/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f666f726b732f536e61696c636c696d622f4a6176614775696465 responded 502 in 38301.1848 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2022-12-08T10:12:18.1709580+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://camo.githubusercontent.com/ccee7415095d05fba9642983107a0f93ebceae0ff3d6d717ec54aa4f2d83c1b4/68747470733a2f2f67756964652d626c6f672d696d616765732e6f73732d636e2d7368656e7a68656e2e616c6979756e63732e636f6d2f6769746875622f6a61766167756964652f676f6e677a686f6e6768616f7875616e636875616e2e706e67 responded 502 in 38301.605 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2022-12-08T10:12:18.1734650+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/29880145 responded 502 in 39042.404 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2022-12-08T10:12:18.1749075+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/29880145 responded 502 in 38306.0293 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2022-12-08T10:12:18.1764775+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/16145283 responded 502 in 38301.001 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2022-12-08T10:12:18.1780160+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/92196261 responded 502 in 38309.0494 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2022-12-08T10:12:18.1799170+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/48784001 responded 502 in 38310.7346 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2022-12-08T10:12:18.1821908+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/15909210 responded 502 in 38312.944 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2022-12-08T10:12:18.1838169+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/75795463 responded 502 in 39052.8227 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2022-12-08T10:12:18.1860677+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/38206169 responded 502 in 38310.4539 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2022-12-08T10:12:18.1870211+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/20252044 responded 502 in 38311.4992 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2022-12-08T10:12:18.1891790+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/4637100 responded 502 in 38320.2589 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2022-12-08T10:12:18.1914787+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/32566324 responded 502 in 38322.4964 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2022-12-08T10:12:18.1935948+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/43314997 responded 502 in 38317.7704 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2022-12-08T10:12:18.1974577+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/37563054 responded 502 in 38321.8498 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2022-12-08T10:12:18.1991518+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://camo.githubusercontent.com/66ade3189327eb1a79cadf5c96b093d2537eca04c4c9a50fdbb30b068338f457/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732f536e61696c636c696d622f4a6176614775696465 responded 502 in 38330.8924 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2022-12-08T10:12:19.2378603+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.png responded 200 in 1037.7005 ms
+
+2022-12-08T10:12:20.3536866+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+camo.githubusercontent.com@119.29.29.29:53->Unexpected end of stream
+
+2022-12-08T10:12:20.5473215+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://alive.github.com/_sockets/u/75795463/ws responded 101 in 19300.1405 ms
+
+2022-12-08T10:12:20.6258081+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+camo.githubusercontent.com:443->[185.199.110.133, 185.199.109.133, 185.199.108.133]
+
+2022-12-08T10:12:21.1974790+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/Snailclimb/JavaGuide responded 502 in 2662.8334 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2022-12-08T10:12:21.4952914+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+api.github.com@119.29.29.29:53->Unexpected end of stream
+
+2022-12-08T10:12:21.6199740+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://alive.github.com/_sockets/u/75795463/ws responded 101 in 3326.1603 ms
+
+2022-12-08T10:12:21.8065189+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.github.com:443->[20.205.243.168, 140.82.114.6]
+
+2022-12-08T10:12:21.9577057+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Unexpected end of stream
+
+2022-12-08T10:12:22.2773906+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.113.4]
+
+2022-12-08T10:12:22.7664872+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://alive.github.com/_sockets/u/75795463/ws responded 101 in 3407.3464 ms
+
+2022-12-08T10:12:22.8296790+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+api.github.com->127.0.0.1
+
+2022-12-08T10:12:22.8334704+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+api.github.com->127.0.0.1
+
+2022-12-08T10:12:23.1188656+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.png responded 200 in 209.2372 ms
+
+2022-12-08T10:12:23.2344431+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+collector.github.com@119.29.29.29:53->Unexpected end of stream
+
+2022-12-08T10:12:23.3236847+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.png responded 200 in 413.8977 ms
+
+2022-12-08T10:12:23.5504442+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.113.21, 140.82.112.22]
+
+2022-12-08T10:12:23.5617022+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/SilentCamera responded 200 in 2358.8349 ms
+
+2022-12-08T10:12:23.9635882+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/users/Robingao666/feature_preview/indicator_check responded 200 in 318.4318 ms
+
+2022-12-08T10:12:24.0283593+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+avatars.githubusercontent.com@119.29.29.29:53->Unexpected end of stream
+
+2022-12-08T10:12:24.0813452+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+avatars.githubusercontent.com:443->[185.199.110.133, 185.199.109.133, 185.199.108.133]
+
+2022-12-08T10:12:24.1584307+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/SilentCamera/hovercards/citation/sidebar_partial responded 204 in 331.2666 ms
+
+2022-12-08T10:12:24.1851338+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/SilentCamera/used_by_list responded 200 in 357.7878 ms
+
+2022-12-08T10:12:24.2019378+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/SilentCamera/spoofed_commit_check/00c052e63fd555152c5c9e14ae0d5b7c2bd0fcd0 responded 200 in 375.9261 ms
+
+2022-12-08T10:12:24.2166719+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/SilentCamera/show_partial responded 200 in 390.2973 ms
+
+2022-12-08T10:12:24.2191430+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/SilentCamera/overview_actions/master responded 200 in 392.7186 ms
+
+2022-12-08T10:12:24.2369476+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/SilentCamera/file-list/master responded 200 in 409.896 ms
+
+2022-12-08T10:12:24.2524150+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/SilentCamera/tree-commit/00c052e63fd555152c5c9e14ae0d5b7c2bd0fcd0 responded 200 in 425.389 ms
+
+2022-12-08T10:12:24.3003884+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/75795463 responded 200 in 789.3142 ms
+
+2022-12-08T10:12:24.3012980+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 676.525 ms
+
+2022-12-08T10:12:24.3103556+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+collector.github.com->127.0.0.1
+
+2022-12-08T10:12:24.3124489+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+collector.github.com->127.0.0.1
+
+2022-12-08T10:12:24.4289329+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/SilentCamera/security/overall-count responded 200 in 605.4603 ms
+
+2022-12-08T10:12:24.5604478+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.png responded 200 in 202.899 ms
+
+2022-12-08T10:12:24.8594843+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 536.2253 ms
+
+2022-12-08T10:12:24.9946127+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/SilentCamera/commit/00c052e63fd555152c5c9e14ae0d5b7c2bd0fcd0/rollup responded 200 in 709.0045 ms
+
+2022-12-08T10:12:25.6644921+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 449.7689 ms
+
+2022-12-08T10:12:26.0772984+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 1649.9826 ms
+
+2022-12-08T10:12:27.2377542+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/users/AndroidPhoenix/hovercard responded 200 in 710.2941 ms
+
+2022-12-08T10:12:27.6800771+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/37130296 responded 200 in 432.8408 ms
+
+2022-12-08T10:12:34.5662243+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 531.9352 ms
+
+2022-12-08T10:12:34.7294315+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 751.7361 ms
+
+2022-12-08T10:12:34.8523595+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.png responded 200 in 201.4115 ms
+
+2022-12-08T10:12:34.8587150+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 765.6731 ms
+
+2022-12-08T10:12:35.0939424+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dns.cloudflare.com@119.29.29.29:53->Invalid response received with code ServerFailure
+
+2022-12-08T10:12:35.4005650+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dns.cloudflare.com:443->[104.16.132.229, 104.16.133.229]
+
+2022-12-08T10:12:35.9035243+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/SilentCamera/issues responded 200 in 1822.9378 ms
+
+2022-12-08T10:12:36.0507694+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+raw.githubusercontent.com@119.29.29.29:53->Unexpected end of stream
+
+2022-12-08T10:12:36.1248180+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[185.199.110.133, 185.199.109.133, 185.199.108.133]
+
+2022-12-08T10:12:36.4168612+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.png responded 200 in 472.057 ms
+
+2022-12-08T10:12:36.4473358+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/issue-to-discussion-conversions-f1a3099efb15.js responded 200 in 483.5685 ms
+
+2022-12-08T10:12:36.5541347+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 452.1084 ms
+
+2022-12-08T10:12:36.6357820+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/structured-issues-aa8491247b1e.js responded 200 in 672.0484 ms
+
+2022-12-08T10:12:36.7336333+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 468.4456 ms
+
+2022-12-08T10:12:36.8134581+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/issues-721e904fff52.js responded 200 in 849.737 ms
+
+2022-12-08T10:12:37.0161712+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.png responded 200 in 829.2421 ms
+
+2022-12-08T10:12:37.0228501+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 611.8296 ms
+
+2022-12-08T10:12:37.0655178+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.png responded 200 in 859.617 ms
+
+2022-12-08T10:12:37.3797109+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+nexusrules.officeapps.live.com:443->[52.109.8.45, 52.109.8.44, 52.109.13.63]
+
+2022-12-08T10:12:37.3953411+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_primer_behaviors_dist_esm_dimensions_js-node_modules_github_catalyst_lib-d3781a-f258e01c7216.js responded 200 in 1431.6225 ms
+
+2022-12-08T10:12:37.5421018+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.png responded 200 in 1355.5714 ms
+
+2022-12-08T10:12:37.5878494+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 1390.0386 ms
+
+2022-12-08T10:12:37.6463853+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 1286.6514 ms
+
+2022-12-08T10:12:37.6886042+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.png responded 200 in 202.1202 ms
+
+2022-12-08T10:12:38.4071871+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/SilentCamera/issues responded 200 in 2007.0227 ms
+
+2022-12-08T10:12:38.5811425+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/SilentCamera/issues/1/hovercard responded 200 in 421.4392 ms
+
+2022-12-08T10:12:38.9023433+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 441.5618 ms
+
+2022-12-08T10:12:40.2225844+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.png responded 200 in 928.4083 ms
+
+2022-12-08T10:12:40.6946521+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/SilentCamera/issues/1 responded 200 in 2251.709 ms
+
+2022-12-08T10:12:40.9422598+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.png responded 200 in 202.7333 ms
+
+2022-12-08T10:12:40.9752398+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/images/spinners/octocat-spinner-64.gif responded 200 in 249.183 ms
+
+2022-12-08T10:12:41.1557199+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-app_components_issues_references_development-menu-element_ts-673d0151b18b.js responded 200 in 239.0564 ms
+
+2022-12-08T10:12:41.2320315+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/SilentCamera/sponsors-nudges responded 200 in 357.4748 ms
+
+2022-12-08T10:12:41.3889764+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-app_assets_modules_github_safe-storage_ts-app_components_branch_create-branch-element_ts-780d87661a8b.js responded 200 in 473.2884 ms
+
+2022-12-08T10:12:41.4272275+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/75795463 responded 200 in 701.2908 ms
+
+2022-12-08T10:12:41.6304785+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 449.5767 ms
+
+2022-12-08T10:12:41.8850518+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/49971400 responded 200 in 1159.397 ms
+
+2022-12-08T10:12:42.8315572+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/preview responded 200 in 988.1042 ms
+
+2022-12-08T10:12:42.9356845+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/49971400 responded 200 in 2209.0366 ms
+
+2022-12-08T10:12:44.1068825+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+secure.gravatar.com:443->[192.0.73.2]
+
+2022-12-08T10:12:44.2790885+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/users/yrjy/hovercard responded 200 in 668.6698 ms
+
+2022-12-08T10:12:44.6131959+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/users/AndroidPhoenix/hovercard responded 200 in 566.7801 ms
+
+2022-12-08T10:12:44.9039187+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/49971400 responded 200 in 617.7221 ms
+
+2022-12-08T10:12:45.5236945+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.png responded 200 in 205.9815 ms
+
+2022-12-08T10:12:45.9582346+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dsm01pap001.storage.live.com@119.29.29.29:53->Unexpected end of stream
+
+2022-12-08T10:12:46.8160798+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+alive.github.com@119.29.29.29:53->Unexpected end of stream
+
+2022-12-08T10:12:47.0820502+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.114.26, 140.82.113.25, 140.82.112.26]
+
+2022-12-08T10:12:48.0281557+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.githubassets.com@119.29.29.29:53->Unexpected end of stream
+
+2022-12-08T10:12:48.1566199+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.png responded 200 in 210.4013 ms
+
+2022-12-08T10:12:48.2013247+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.png responded 200 in 216.5642 ms
+
+2022-12-08T10:12:48.2015635+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.png responded 200 in 216.6461 ms
+
+2022-12-08T10:12:48.6348337+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 524.6818 ms
+
+2022-12-08T10:12:48.6746246+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 446.5669 ms
+
+2022-12-08T10:12:48.7052073+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/SilentCamera/hovercards/citation/sidebar_partial responded 204 in 491.2308 ms
+
+2022-12-08T10:12:49.0337954+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+login.live.com@119.29.29.29:53->Unexpected end of stream
+
+2022-12-08T10:12:49.3609506+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.141.32, 20.190.141.37, 20.190.141.36]
+
+2022-12-08T10:12:50.6055570+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+secure.gravatar.com@119.29.29.29:53->Unexpected end of stream
+
+2022-12-08T10:12:52.1743120+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Unexpected end of stream
+
+2022-12-08T10:12:53.3516662+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+collector.github.com@119.29.29.29:53->Unexpected end of stream
+
+2022-12-08T10:12:54.3912809+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 472.8409 ms
+
+2022-12-08T10:12:54.4725998+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+avatars.githubusercontent.com@119.29.29.29:53->Unexpected end of stream
+
+2022-12-08T10:12:55.7074946+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 462.1005 ms
+
+2022-12-08T10:12:55.8230779+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/SilentCamera/archive/refs/heads/master.zip responded 302 in 557.7722 ms
+
+2022-12-08T10:12:56.3564338+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/SilentCamera/archive/refs/heads/master.zip responded 302 in 514.9018 ms
+
+2022-12-08T10:12:56.3645478+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+codeload.github.com->127.0.0.1
+
+2022-12-08T10:12:56.3672316+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+codeload.github.com->127.0.0.1
+
+2022-12-08T10:12:58.1935260+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+codeload.github.com@119.29.29.29:53->Unexpected end of stream
+
+2022-12-08T10:12:58.5037046+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+codeload.github.com:443->[20.205.243.165, 140.82.112.10]
+
+2022-12-08T10:12:58.5713316+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.png responded 200 in 215.7882 ms
+
+2022-12-08T10:12:58.5913331+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 463.7444 ms
+
+2022-12-08T10:12:58.7063589+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/SilentCamera/archive/refs/heads/master.zip responded 302 in 561.7877 ms
+
+2022-12-08T10:12:59.0987488+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.114.26, 140.82.113.25, 140.82.114.25]
+
+2022-12-08T10:12:59.2690798+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/SilentCamera/archive/refs/heads/master.zip responded 302 in 546.6509 ms
+
+2022-12-08T10:13:00.0206774+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://codeload.github.com/AndroidPhoenix/SilentCamera/zip/refs/heads/master responded 304 in 744.6806 ms
+
+2022-12-08T10:13:00.3607922+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.png responded 200 in 221.054 ms
+
+2022-12-08T10:13:01.9547275+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://codeload.github.com/AndroidPhoenix/SilentCamera/zip/refs/heads/master responded 200 in 5184.3317 ms
+
+2022-12-08T10:13:03.5907964+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 463.0405 ms
+
+2022-12-08T10:13:04.3649769+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 458.2262 ms
+
+2022-12-08T10:13:05.5508745+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dns.cloudflare.com@119.29.29.29:53->Unexpected end of stream
+
+2022-12-08T10:13:06.0119122+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 464.1203 ms
+
+2022-12-08T10:13:06.6728320+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+raw.githubusercontent.com@119.29.29.29:53->Unexpected end of stream
+
+2022-12-08T10:13:06.9913238+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/SilentCamera responded 200 in 1465.5694 ms
+
+2022-12-08T10:13:07.2243169+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.png responded 200 in 208.8159 ms
+
+2022-12-08T10:13:07.2824363+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.png responded 200 in 204.3561 ms
+
+2022-12-08T10:13:07.4787805+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.png responded 200 in 208.9316 ms
+
+2022-12-08T10:13:07.4908294+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.png responded 200 in 205.6057 ms
+
+2022-12-08T10:13:07.4995252+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/SilentCamera/hovercards/citation/sidebar_partial responded 204 in 329.1071 ms
+
+2022-12-08T10:13:07.5159298+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/SilentCamera/show_partial responded 200 in 347.2262 ms
+
+2022-12-08T10:13:07.5159291+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/SilentCamera/used_by_list responded 304 in 345.3086 ms
+
+2022-12-08T10:13:07.5258070+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/SilentCamera/file-list/master responded 304 in 355.5773 ms
+
+2022-12-08T10:13:07.5272982+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/SilentCamera/tree-commit/00c052e63fd555152c5c9e14ae0d5b7c2bd0fcd0 responded 304 in 357.1451 ms
+
+2022-12-08T10:13:07.6505679+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 463.0752 ms
+
+2022-12-08T10:13:07.7009001+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/SilentCamera/spoofed_commit_check/00c052e63fd555152c5c9e14ae0d5b7c2bd0fcd0 responded 304 in 533.7297 ms
+
+2022-12-08T10:13:07.7933875+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 446.7299 ms
+
+2022-12-08T10:13:07.8443662+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/SilentCamera/overview_actions/master responded 200 in 675.6338 ms
+
+2022-12-08T10:13:07.9212074+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/SilentCamera/commit/00c052e63fd555152c5c9e14ae0d5b7c2bd0fcd0/rollup responded 200 in 349.0927 ms
+
+2022-12-08T10:13:08.1986727+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.png responded 200 in 928.7638 ms
+
+2022-12-08T10:13:11.5456302+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 515.1671 ms
+
+2022-12-08T10:13:11.9435153+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+api.github.com@119.29.29.29:53->Unexpected end of stream
+
+2022-12-08T10:13:11.9736916+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.png responded 200 in 203.7706 ms
+
+2022-12-08T10:13:12.0094316+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 454.6323 ms
+
+2022-12-08T10:13:12.0665669+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix responded 200 in 1017.8132 ms
+
+2022-12-08T10:13:12.3525493+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/profile-b51b0027779f.css responded 200 in 213.6967 ms
+
+2022-12-08T10:13:12.3592903+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.png responded 200 in 213.4886 ms
+
+2022-12-08T10:13:12.3643591+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.png responded 200 in 217.8009 ms
+
+2022-12-08T10:13:12.4090896+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_delegated-events_dist_index_js-node_modules_github_catalyst_lib_index_js-06ff530-f10a34ee2e2b.js responded 200 in 267.8242 ms
+
+2022-12-08T10:13:12.4112845+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.png responded 200 in 264.9204 ms
+
+2022-12-08T10:13:12.6397470+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 444.2021 ms
+
+2022-12-08T10:13:12.6831075+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/profile-2cdbdc4ee3d2.js responded 200 in 539.7459 ms
+
+2022-12-08T10:13:12.6841114+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.png responded 200 in 207.2198 ms
+
+2022-12-08T10:13:12.7744471+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/37130296 responded 200 in 410.9093 ms
+
+2022-12-08T10:13:12.8287871+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/37130296 responded 200 in 462.8554 ms
+
+2022-12-08T10:13:12.9914920+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 462.3553 ms
+
+2022-12-08T10:13:17.6889319+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+alive.github.com@119.29.29.29:53->Unexpected end of stream
+
+2022-12-08T10:13:18.9408089+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.githubassets.com@119.29.29.29:53->Unexpected end of stream
+
+2022-12-08T10:13:19.0683241+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 474.6624 ms
+
+2022-12-08T10:13:19.4776244+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix responded 200 in 852.4462 ms
+
+2022-12-08T10:13:19.6955236+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.png responded 200 in 208.1336 ms
+
+2022-12-08T10:13:19.7684152+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.png responded 200 in 204.7167 ms
+
+2022-12-08T10:13:20.0691919+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+login.live.com@119.29.29.29:53->Unexpected end of stream
+
+2022-12-08T10:13:20.1644262+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.png responded 200 in 206.2048 ms
+
+2022-12-08T10:13:20.1704181+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.png responded 200 in 204.1179 ms
+
+2022-12-08T10:13:20.2035626+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/SortDemo/graphs/participation responded 200 in 359.8405 ms
+
+2022-12-08T10:13:20.2079578+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/RxWeather/graphs/participation responded 200 in 364.1918 ms
+
+2022-12-08T10:13:20.2128846+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/keras/graphs/participation responded 200 in 378.1871 ms
+
+2022-12-08T10:13:20.2274272+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/ObjectDetect/graphs/participation responded 200 in 385.7278 ms
+
+2022-12-08T10:13:20.2278182+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/keras_to_tensorflow/graphs/participation responded 200 in 384.1033 ms
+
+2022-12-08T10:13:20.2357000+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/tensorflow/graphs/participation responded 200 in 394.0214 ms
+
+2022-12-08T10:13:20.2822758+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/android-Camera2Basic/graphs/participation responded 200 in 444.206 ms
+
+2022-12-08T10:13:20.3253476+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 450.7826 ms
+
+2022-12-08T10:13:20.4504313+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 455.1833 ms
+
+2022-12-08T10:13:20.5356662+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/BezierDemo/graphs/participation responded 200 in 690.8386 ms
+
+2022-12-08T10:13:20.5684322+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/TensorFlow_learning_notes/graphs/participation responded 200 in 722.5048 ms
+
+2022-12-08T10:13:20.5687317+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/StackInsideScrollDemo/graphs/participation responded 200 in 734.0165 ms
+
+2022-12-08T10:13:20.5834824+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/HelloAspectJ/graphs/participation responded 200 in 738.6689 ms
+
+2022-12-08T10:13:20.5897509+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/EventInjector/graphs/participation responded 200 in 744.7569 ms
+
+2022-12-08T10:13:20.5925685+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/DynamicSwitch/graphs/participation responded 200 in 747.5244 ms
+
+2022-12-08T10:13:20.5994821+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/SilentCamera/graphs/participation responded 200 in 754.2838 ms
+
+2022-12-08T10:13:20.7255894+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/XPhotoview/graphs/participation responded 200 in 880.5081 ms
+
+2022-12-08T10:13:20.7378837+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/DataBindingDemo/graphs/participation responded 200 in 893.0067 ms
+
+2022-12-08T10:13:20.8464590+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.png responded 200 in 888.4218 ms
+
+2022-12-08T10:13:21.2969320+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+secure.gravatar.com@119.29.29.29:53->Unexpected end of stream
+
+2022-12-08T10:13:24.3036368+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Invalid response received with code ServerFailure
+
+2022-12-08T10:13:24.5044066+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.121.4, 140.82.113.4]
+
+2022-12-08T10:13:24.8970380+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+collector.github.com@119.29.29.29:53->Unexpected end of stream
+
+2022-12-08T10:13:25.0134500+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+avatars.githubusercontent.com@119.29.29.29:53->Unexpected end of stream
+
+2022-12-08T10:13:34.4663606+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 448.5624 ms
+
+2022-12-08T10:13:34.5454359+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 450.1635 ms
+
+2022-12-08T10:13:34.9897976+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix responded 200 in 919.0882 ms
+
+2022-12-08T10:13:35.2228681+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/projects-e154ca32c716.css responded 200 in 205.8413 ms
+
+2022-12-08T10:13:35.2313473+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.png responded 200 in 207.539 ms
+
+2022-12-08T10:13:35.4028010+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.png responded 200 in 496.524 ms
+
+2022-12-08T10:13:35.6374566+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.png responded 200 in 211.9315 ms
+
+2022-12-08T10:13:35.6379026+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.png responded 200 in 203.5822 ms
+
+2022-12-08T10:13:35.8153839+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 454.0494 ms
+
+2022-12-08T10:13:35.8419100+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 452.8196 ms
+
+2022-12-08T10:13:35.8979153+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.png responded 200 in 472.3965 ms
+
+2022-12-08T10:13:36.2628208+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 750.3503 ms
+
+2022-12-08T10:13:37.9661625+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 474.9801 ms
+
+2022-12-08T10:13:38.2514234+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+dns.cloudflare.com@119.29.29.29:53->Invalid response received with code ServerFailure
+
+2022-12-08T10:13:38.4877137+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+raw.githubusercontent.com@119.29.29.29:53->Invalid response received with code ServerFailure
+
+2022-12-08T10:13:38.5380592+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix responded 200 in 1022.2032 ms
+
+2022-12-08T10:13:38.7041886+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.png responded 200 in 249.0023 ms
+
+2022-12-08T10:13:38.9634480+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+nexusrules.officeapps.live.com:443->[52.109.8.45, 52.109.8.44, 52.109.8.86]
+
+2022-12-08T10:13:39.1027576+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.png responded 200 in 488.7958 ms
+
+2022-12-08T10:13:39.1305439+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.png responded 200 in 208.4005 ms
+
+2022-12-08T10:13:39.1477880+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.png responded 200 in 209.7299 ms
+
+2022-12-08T10:13:39.1603229+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.png responded 200 in 238.5942 ms
+
+2022-12-08T10:13:39.2347035+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/StackInsideScrollDemo/graphs/participation responded 304 in 433.4374 ms
+
+2022-12-08T10:13:39.4309165+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 475.1107 ms
+
+2022-12-08T10:13:39.4948161+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/tensorflow/graphs/participation responded 304 in 686.3568 ms
+
+2022-12-08T10:13:39.5436067+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/keras_to_tensorflow/graphs/participation responded 304 in 735.1579 ms
+
+2022-12-08T10:13:39.5516076+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/SortDemo/graphs/participation responded 304 in 743.122 ms
+
+2022-12-08T10:13:39.5588592+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/EventInjector/graphs/participation responded 304 in 748.6815 ms
+
+2022-12-08T10:13:39.5736134+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/RxWeather/graphs/participation responded 304 in 765.1042 ms
+
+2022-12-08T10:13:39.6308475+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/android-Camera2Basic/graphs/participation responded 304 in 826.154 ms
+
+2022-12-08T10:13:39.6324501+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/keras/graphs/participation responded 304 in 827.8147 ms
+
+2022-12-08T10:13:39.6527830+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/TensorFlow_learning_notes/graphs/participation responded 304 in 842.2218 ms
+
+2022-12-08T10:13:39.6531728+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/DataBindingDemo/graphs/participation responded 304 in 844.6254 ms
+
+2022-12-08T10:13:39.6551853+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/DynamicSwitch/graphs/participation responded 304 in 844.9823 ms
+
+2022-12-08T10:13:39.6768512+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/SilentCamera/graphs/participation responded 304 in 866.5393 ms
+
+2022-12-08T10:13:39.6846125+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/ObjectDetect/graphs/participation responded 304 in 879.9395 ms
+
+2022-12-08T10:13:39.7085762+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/HelloAspectJ/graphs/participation responded 304 in 898.3756 ms
+
+2022-12-08T10:13:39.7169629+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/XPhotoview/graphs/participation responded 304 in 906.6973 ms
+
+2022-12-08T10:13:39.7352788+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/BezierDemo/graphs/participation responded 304 in 925.1044 ms
+
+2022-12-08T10:13:42.3086646+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+api.github.com@119.29.29.29:53->Unexpected end of stream
+
+2022-12-08T10:13:42.5111797+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 443.0023 ms
+
+2022-12-08T10:13:48.2180927+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+alive.github.com@119.29.29.29:53->Unexpected end of stream
+
+2022-12-08T10:13:49.4374823+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.githubassets.com@119.29.29.29:53->Invalid response received with code ServerFailure
+
+2022-12-08T10:13:50.5511214+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+login.live.com@119.29.29.29:53->Unexpected end of stream
+
+2022-12-08T10:13:50.6252888+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 445.3436 ms
+
+2022-12-08T10:13:51.2440952+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.png responded 200 in 237.5859 ms
+
+2022-12-08T10:13:51.4913634+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/SilentCamera responded 200 in 1325.5774 ms
+
+2022-12-08T10:13:52.1058898+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 461.6211 ms
+
+2022-12-08T10:13:53.0122281+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://alive.github.com/_sockets/u/75795463/ws responded 101 in 89148.4744 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2022-12-08T10:13:53.2870613+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.png responded 200 in 204.8636 ms
+
+2022-12-08T10:13:53.3167496+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.png responded 200 in 234.7739 ms
+
+2022-12-08T10:13:53.3562467+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/SilentCamera responded 200 in 1789.7588 ms
+
+2022-12-08T10:13:53.4893136+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 503.1523 ms
+
+2022-12-08T10:13:54.0634407+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/SilentCamera/spoofed_commit_check/00c052e63fd555152c5c9e14ae0d5b7c2bd0fcd0 responded 304 in 389.0983 ms
+
+2022-12-08T10:13:54.0701540+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/SilentCamera/hovercards/citation/sidebar_partial responded 204 in 393.5891 ms
+
+2022-12-08T10:13:54.0743416+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/SilentCamera/show_partial responded 200 in 400.0123 ms
+
+2022-12-08T10:13:54.0770332+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.png responded 200 in 235.4227 ms
+
+2022-12-08T10:13:54.0957164+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/SilentCamera/overview_actions/master responded 200 in 419.2154 ms
+
+2022-12-08T10:13:54.2379951+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/AndroidPhoenix/SilentCamera/commit/00c052e63fd555152c5c9e14ae0d5b7c2bd0fcd0/rollup responded 200 in 561.4411 ms
+
+2022-12-08T10:13:54.2494424+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 436.0199 ms
+
+2022-12-08T10:13:54.2923184+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 511.6313 ms
+
+2022-12-08T10:13:54.7210018+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 452.081 ms
+
+2022-12-08T10:13:58.4386243+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+collector.github.com@119.29.29.29:53->Invalid response received with code ServerFailure
+
+2022-12-08T10:13:58.7005605+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.114.22, 140.82.113.21, 140.82.112.22]
+
+2022-12-08T10:13:59.2150363+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://alive.github.com/_sockets/u/75795463/ws responded 101 in 5498.0002 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2022-12-08T10:13:59.2225436+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 502 in 9.323 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2022-12-08T10:13:59.2641033+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Unexpected end of stream
+
+2022-12-08T10:14:01.0705051+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+avatars.githubusercontent.com@119.29.29.29:53->Invalid response received with code ServerFailure
+
+2022-12-08T10:14:02.2665941+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+codeload.github.com@119.29.29.29:53->Unexpected end of stream
+
+2022-12-08T10:14:04.9499252+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.113.26, 140.82.114.26, 140.82.113.25]
+
+2022-12-08T10:14:05.8268980+08:00 [INF]
+FastGithub.AppHostedService
+正在主动关闭，因为父进程已退出
+
